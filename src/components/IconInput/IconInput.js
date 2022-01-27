@@ -30,7 +30,7 @@ const IconInput = ({ label, icon, width = 250, size, placeholder }) => {
     return (
         <Wrapper>
             <IconWrapper>
-                <VisuallyHidden>{icon}</VisuallyHidden>
+                <VisuallyHidden>{label}</VisuallyHidden>
                 <Icon id={icon} size={size === "small" ? "14" : "16"} />
             </IconWrapper>
             <TextInput
